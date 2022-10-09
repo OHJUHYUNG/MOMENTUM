@@ -17,9 +17,13 @@
         type="text"
         placeholder="What is your name?"
       />
-      <button>Log In</button>
+      <input type="submit" value="Log In" />
     </form>
+    <!--html 자체 input 유효성 결과를 확인하기 위해서는 꼭 form 태그 안에 input을 사용해야함!
+      But, Submit시 페이지가 재시작(refresh) 됨-->
+
     <h1 id="greeting" class="hidden"></h1>
+
     <form id="todo-form">
       <input
         type="text"
